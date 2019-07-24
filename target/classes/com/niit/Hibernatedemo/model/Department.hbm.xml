@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping package="com.niit.Hibernatedemo.model">
+	<class table="Department" name="Department">
+		<id name="ID" type="int" >
+		<generator class="identity"></generator> </id>
+		<property name="dept" type="string" />
+		</class>
+</hibernate-mapping>
